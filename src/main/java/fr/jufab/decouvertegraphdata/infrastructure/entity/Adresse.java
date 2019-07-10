@@ -17,7 +17,7 @@ import org.neo4j.ogm.annotation.Relationship;
 public class Adresse {
 
     @Id @GeneratedValue private Long id;
-    private String nom;
+    private String nomDeLaRue;
     private int numero;
     private String codePostal;
     private String ville;
